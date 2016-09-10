@@ -34,7 +34,7 @@ rbenv global 2.3.1
 rbenv rehash
 
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
-gem install bundler
+sudo gem install bundler
 
 # install jekyll, too
-gem install jekyll
+sudo gem install jekyll
